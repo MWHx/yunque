@@ -1,0 +1,198 @@
+.db {
+  display: block;
+}
+.fl {
+  float: left;
+}
+.c {
+  cursor: pointer;
+}
+body {
+  padding-bottom: 440px;
+  background-color: #f6f6f6;
+}
+.banner {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+.topSelected {
+  width: 1200px;
+  margin: 40px auto 0;
+  background-color: #ffffff;
+  padding: 24px 20px 55px;
+}
+.topSelected h4 {
+  font-size: 18px;
+  color: #000;
+}
+.topSelected ul {
+  font-size: 0;
+  margin-top: 20px;
+}
+.topSelected ul li {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 280px;
+  height: 166px;
+  margin-right: 12px;
+}
+.topSelected ul li:nth-last-of-type(1) {
+  margin-right: 0;
+}
+.topSelected ul li img {
+  position: absolute;
+  width: 280px;
+  height: 166px;
+  display: block;
+}
+.topSelected ul li p {
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #ffffff;
+  padding: 0 18px;
+  line-height: 26px;
+}
+main {
+  width: 1200px;
+  margin: 24px auto 0;
+  padding-top: 12px;
+}
+main .left {
+  width: 790px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #ffffff;
+  font-size: 0;
+}
+main .left .leftList li {
+  padding: 36px 20px;
+  border-top: 1px solid #dbd6d6;
+}
+main .left .leftList li img {
+  width: 240px;
+  height: 140px;
+  display: inline-block;
+  vertical-align: middle;
+}
+main .left .leftList li .listRight {
+  width: 490px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  position: relative;
+}
+main .left .leftList li .listRight h5 {
+  font-size: 16px;
+  color: #040202;
+  font-weight: 400;
+}
+main .left .leftList li .listRight p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  margin-top: 24px;
+}
+main .left .leftList li .listRight span {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 32px;
+  display: block;
+}
+main .left .leftList li:nth-last-of-type(1) {
+  border-bottom: 1px solid #dbd6d6;
+}
+main .right {
+  display: inline-block;
+  vertical-align: top;
+  width: 360px;
+  margin-left: 40px;
+}
+main .right .leftTop {
+  width: 100%;
+  height: 206px;
+  display: block;
+}
+main .right .jiShao {
+  margin-top: 18px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 16px;
+}
+main .right .jiShao span {
+  font-size: 20px;
+  color: #4e88ee;
+}
+main .right .jiShao p {
+  font-size: 12px;
+  color: #666666;
+  line-height: 24px;
+}
+main .right .jiShao p:nth-of-type(1) {
+  margin-top: 18px;
+}
+main .right .list {
+  background-color: #ffffff;
+  padding: 10px 10px 44px 10px ;
+  margin-top: 24px;
+}
+main .right .list ul {
+  margin-top: 30px;
+}
+main .right .list ul li {
+  margin-bottom: 36px;
+}
+main .right .list ul li img {
+  width: 120px;
+  height: 64px;
+  display: inline-block;
+  vertical-align: middle;
+}
+main .right .list ul li p {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 188px;
+  font-size: 16px;
+  color: #666666;
+  line-height: 28px;
+}
+main .right .list ul li:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+.pagin {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: center;
+}
+.pagin ul {
+  width: 820px;
+  font-size: 0;
+}
+.pagin ul li {
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.pagin ul li:nth-last-of-type(1) {
+  margin-right: 0;
+}
+.pagin ul li span {
+  padding: 0 14px;
+  height: 30px;
+  background-color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  display: block;
+  cursor: pointer;
+}
+.pagin ul li span:hover {
+  background-color: #00fcff;
+  color: #ffffff;
+}

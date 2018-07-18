@@ -1,0 +1,132 @@
+@import "_fun";
+.BG{
+  position: absolute;
+  display: block;
+
+}
+.banner{
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  display: block;
+  height: 820px;
+
+  .BG{
+    width: 100%;
+    z-index: -1;
+    height: 820px;
+  }
+  .BGCen{
+    margin: 0 auto;
+    width: 1200px;
+    display: block;
+  }
+  .mydiv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    min-height: 512px;
+    width: 100%;
+    display: block;
+    canvas{
+      background-color: transparent;
+      position: absolute!important;
+    }
+  }
+}
+main{
+  background-color: #000;
+  padding-top: 140px;
+  padding-bottom: 560px;
+  .mainTitle{
+   width: 538px;
+    height: 190px;
+    display: block;
+    margin: 0 auto;
+  }
+  ul{
+    margin: 0 auto ;
+    width: 1200px;
+    display: block;
+    padding-top: 108px;
+    font-size: 0;
+    li{
+      background-image: url("../img/aboutUs/02.png");
+      background-repeat: no-repeat;
+      width: 598px;
+      height: 544px;
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      margin-bottom: 60px;
+      .left{
+        position: absolute;
+        font-size: 26px;
+        color: #fffcfc;
+        display: inline-block;
+        vertical-align: middle;
+        width: 120px;
+        padding: 0 40px;
+        text-align: center;
+        top: 50%;
+        margin-top: -135px;
+      }
+      .right{
+        float: right;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 45px 25px 0 15px;
+        span{
+          color: #439dcb;
+          font-size: 14px;
+          line-height: 24px;
+          display: block;
+          &:nth-of-type(2){
+            margin-top: 30px;
+          }
+        }
+        p{
+          font-size: 14px ;
+          color: #ffffff;
+          line-height: 24px;
+          width: 440px;
+        }
+      }
+      &:nth-of-type(1),&:nth-of-type(2){
+        .left{
+          padding-top: 20px;
+        }
+      }
+      &:nth-of-type(5),&:nth-of-type(6){
+        .left{
+          padding-top: 40px;
+        }
+      }
+    }
+  }
+  .yx{
+    background-image: url("../img/aboutUs/03.png");
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 124px;
+    display: block;
+    margin: 60px auto 0;
+    text-align: center;
+    background-size: 100%;
+    p{
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 24px;
+      color: #fffcfc;
+      line-height: 104px;
+    }
+    span{
+      font-size: 16px;
+      color: #ffffff;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 104px;
+    }
+  }
+}

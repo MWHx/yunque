@@ -1,0 +1,136 @@
+.db {
+  display: block;
+}
+.fl {
+  float: left;
+}
+.c {
+  cursor: pointer;
+}
+.BG {
+  position: absolute;
+  display: block;
+}
+.banner {
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  display: block;
+  height: 820px;
+}
+.banner .BG {
+  width: 100%;
+  z-index: -1;
+  height: 820px;
+}
+.banner .BGCen {
+  margin: 0 auto;
+  width: 1200px;
+  display: block;
+}
+.banner .mydiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  min-height: 512px;
+  width: 100%;
+  display: block;
+}
+.banner .mydiv canvas {
+  background-color: transparent;
+  position: absolute!important;
+}
+main {
+  background-color: #000;
+  padding-top: 140px;
+  padding-bottom: 560px;
+}
+main .mainTitle {
+  width: 538px;
+  height: 190px;
+  display: block;
+  margin: 0 auto;
+}
+main ul {
+  margin: 0 auto ;
+  width: 1200px;
+  display: block;
+  padding-top: 108px;
+  font-size: 0;
+}
+main ul li {
+  background-image: url("../img/aboutUs/02.png");
+  background-repeat: no-repeat;
+  width: 598px;
+  height: 544px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-bottom: 60px;
+}
+main ul li .left {
+  position: absolute;
+  font-size: 26px;
+  color: #fffcfc;
+  display: inline-block;
+  vertical-align: middle;
+  width: 120px;
+  padding: 0 40px;
+  text-align: center;
+  top: 50%;
+  margin-top: -135px;
+}
+main ul li .right {
+  float: right;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 45px 25px 0 15px;
+}
+main ul li .right span {
+  color: #439dcb;
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+}
+main ul li .right span:nth-of-type(2) {
+  margin-top: 30px;
+}
+main ul li .right p {
+  font-size: 14px ;
+  color: #ffffff;
+  line-height: 24px;
+  width: 440px;
+}
+main ul li:nth-of-type(1) .left,
+main ul li:nth-of-type(2) .left {
+  padding-top: 20px;
+}
+main ul li:nth-of-type(5) .left,
+main ul li:nth-of-type(6) .left {
+  padding-top: 40px;
+}
+main .yx {
+  background-image: url("../img/aboutUs/03.png");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 124px;
+  display: block;
+  margin: 60px auto 0;
+  text-align: center;
+  background-size: 100%;
+}
+main .yx p {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px;
+  color: #fffcfc;
+  line-height: 104px;
+}
+main .yx span {
+  font-size: 16px;
+  color: #ffffff;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 104px;
+}

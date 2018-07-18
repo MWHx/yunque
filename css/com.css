@@ -1,0 +1,355 @@
+.db {
+  display: block;
+}
+.fl {
+  float: left;
+}
+.c {
+  cursor: pointer;
+}
+/*公共样式*/
+body > a {
+  display: none ;
+}
+* {
+  color: #373737;
+  font-family: 'Microsoft YaHei';
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+i,
+em {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+html {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+q,
+blockquote {
+  quotes: none;
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+  content: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #373737;
+}
+a img {
+  border: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+input,
+button,
+select,
+textarea {
+  outline: none;
+  border: none;
+}
+i,
+em {
+  font-style: normal;
+}
+textarea {
+  resize: none;
+}
+/*头部样式*/
+body {
+  position: relative;
+  min-width: 1200px;
+}
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+header {
+  z-index: 1000;
+  width: 1200px;
+  position: absolute;
+  padding-top: 14px;
+  padding-left: 60px;
+  top: 0;
+  left: 50%;
+  margin-left: -600px;
+}
+header .logoBox {
+  display: inline-block;
+  vertical-align: middle;
+  width: 243px;
+  height: 65px;
+}
+header .logoBox img {
+  width: 100%;
+}
+header .mainNavBox {
+  margin-left: 180px;
+  display: inline-block;
+  vertical-align: middle;
+}
+header .mainNavBox ul {
+  display: flex;
+  display: -webkit-flex;
+  width: 560px;
+}
+header .mainNavBox ul li {
+  display: inline-block;
+  vertical-align: middle;
+  width: 110px;
+}
+header .mainNavBox ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  color: #ffffff;
+}
+header .mainNavBox ul li a:hover {
+  color: #00fcff;
+}
+header .mainNavBox .active a {
+  color: #00fcff;
+}
+.foot {
+  background-color: rgba(6, 6, 12, 0.8);
+  height: 440px;
+  padding-top: 90px;
+  position: absolute;
+  bottom: 0 ;
+  left: 0;
+  width: 100%;
+}
+.foot .footCen {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  font-size: 0;
+  height: 100%;
+}
+.foot .footCen .footLogo {
+  width: 375px;
+  height: 86px;
+  display: inline-block;
+  vertical-align: top;
+}
+.foot .footCen ul {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+}
+.foot .footCen ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 18px;
+}
+.foot .footCen ul li:nth-last-of-type(1) {
+  margin-right: 0;
+}
+.foot .footCen ul li span {
+  display: block;
+  font-size: 24px;
+  color: #999999;
+  padding-left: 20px;
+}
+.foot .footCen ul li p {
+  font-size: 16px;
+  color: #999999;
+  line-height: 30px;
+}
+.foot .footCen ul li p:nth-of-type(1) {
+  margin-top: 40px;
+}
+.foot .footCen ul li img {
+  width: 155px;
+  height: 155px;
+  display: block;
+  margin-top: 40px;
+}
+.foot .footCen .nk {
+  position: absolute;
+  font-size: 40px;
+  color: #01fffc;
+  line-height: 72px;
+  bottom: 60px;
+  left: 112px;
+}
+.ck {
+  background: #393d55;
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  margin-top: -267px;
+  z-index: 1000;
+}
+.ck ul {
+  padding: 0 8px;
+  width: 96px;
+}
+.ck ul li {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ffffff;
+  text-align: center;
+  width: 80px;
+  position: relative;
+}
+.ck ul li:nth-of-type(3),
+.ck ul li:nth-of-type(4) {
+  border: none;
+}
+.ck ul li .top {
+  cursor: pointer;
+  display: block;
+}
+.ck ul li .show {
+  display: inline-block;
+  vertical-align: top;
+}
+.ck ul li .show img {
+  text-align: center;
+}
+.ck ul li .show span {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #00fcff;
+}
+.ck ul li .hide {
+  width: 180px;
+  position: absolute;
+  left: -200px;
+  top: 0;
+}
+.ck ul li .hide p {
+  margin-top: 25px;
+  line-height: 72px;
+  text-align: center;
+  font-size: 24px;
+  color: #00fcff;
+  background-color: #393d55;
+  border-radius: 20px;
+  padding: 0 10px;
+}

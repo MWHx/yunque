@@ -1,0 +1,127 @@
+.db {
+  display: block;
+}
+.fl {
+  float: left;
+}
+.c {
+  cursor: pointer;
+}
+body {
+  padding-bottom: 440px;
+  background-color: #f6f6f6;
+}
+.banner {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+main {
+  width: 1200px;
+  margin: 40px auto 0;
+  padding-top: 12px;
+}
+main .left {
+  padding-top: 20px;
+  padding-left: 24px;
+  width: 790px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #ffffff;
+  margin-bottom: 56px;
+}
+main .left .localhost li {
+  display: inline-block;
+  vertical-align: middle;
+}
+main .left .localhost li a {
+  font-size: 14px;
+  color: #666666;
+}
+main .left .text {
+  padding-bottom: 200px;
+}
+main .left .text h4 {
+  margin-top: 70px;
+  text-align: center;
+}
+main .left .text span {
+  color: #666666;
+  width: 100%;
+  text-align: right;
+  padding-right: 60px;
+  display: block;
+  padding-top: 10px;
+}
+main .left .text p {
+  width: 740px;
+  padding-bottom: 34px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+}
+main .left .text p:nth-of-type(1) {
+  margin-top: 60px;
+}
+main .left .text p:nth-last-of-type(1) {
+  padding-bottom: 0;
+}
+main .right {
+  display: inline-block;
+  vertical-align: top;
+  width: 360px;
+  margin-left: 40px;
+}
+main .right .leftTop {
+  width: 100%;
+  height: 206px;
+  display: block;
+}
+main .right .jiShao {
+  margin-top: 18px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 16px;
+}
+main .right .jiShao span {
+  font-size: 20px;
+  color: #4e88ee;
+}
+main .right .jiShao p {
+  font-size: 12px;
+  color: #666666;
+  line-height: 24px;
+}
+main .right .jiShao p:nth-of-type(1) {
+  margin-top: 18px;
+}
+main .right .list {
+  background-color: #ffffff;
+  padding: 10px 10px 44px 10px ;
+  margin-top: 24px;
+}
+main .right .list ul {
+  margin-top: 30px;
+}
+main .right .list ul li {
+  margin-bottom: 36px;
+}
+main .right .list ul li img {
+  width: 120px;
+  height: 64px;
+  display: inline-block;
+  vertical-align: middle;
+}
+main .right .list ul li p {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 188px;
+  font-size: 16px;
+  color: #666666;
+  line-height: 28px;
+}
+main .right .list ul li:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
